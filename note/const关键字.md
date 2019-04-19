@@ -4,7 +4,7 @@
 
 指向字符串常量的指针，pString为变量，*pString为常量。
 
-```cplusplus
+```c++
 //两种写法作用相同
 const char *pString1;
 char const *pString2;
@@ -14,7 +14,7 @@ char const *pString2;
 
 指向字符串(变量或者常量)的指针常量，pString为常量，*pString为变量或者常量。
 
-```cplusplus
+```c++
 char* const pString;
 ```
 
@@ -22,13 +22,13 @@ char* const pString;
 
 指向字符串常量的指针常量，pString为常量，*pString为常量。
 
-```cplusplus
+```c++
 const char *const pString;
 ```
 
 ## 类常量成员
 
-```cplusplus
+```c++
 class ClassName
 {
 public:
@@ -49,7 +49,7 @@ static const int ClassName::d = 4;
 
 ## 类常量成员函数
 
-```cplusplus
+```c++
 class ClassName2
 {
 public:
@@ -65,6 +65,6 @@ public:
 
 常量类实例对象的定义，常量对象只能被调用其类的常量成员函数。
 
-```cplusplus
+```c++
 const ClassName2 obj;
 ```
